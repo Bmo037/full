@@ -12,5 +12,6 @@ c/**/*
 !c/gcc/lib/*.h
 !c/**/Makefile
 !c/**/Makefile.*
-java
+
+##java
 **/*.class
