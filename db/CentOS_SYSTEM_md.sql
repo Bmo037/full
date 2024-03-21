@@ -1,0 +1,6 @@
+CREATE USER "user1" IDENTIFIED BY "1234"
+
+GRANT ALL on SHOP.membertbl TO "user1";
+GRANT ALL on SHOP.producttbl TO "user1";
+
+GRANT SELECT on HR.BIGEMPLOYEES TO "user1";
