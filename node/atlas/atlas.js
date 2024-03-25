@@ -7,15 +7,15 @@ var data = JSON.stringify({
     "database": "test",
     "dataSource": "Cluster0",
     "projection": {
-        "_id": 66012bd07dd7c3c5e9835082,
+        "_id": 0,
         "id": 1,
-        "name": jeong
+        "name": 1
     }
 });
 
 var config = {
     method: 'post',
-    url: 'https://us-west-2.aws.data.mongodb-api.com/app/data-lbwjv/endpoint/data/v1',
+    url: 'https://us-west-2.aws.data.mongodb-api.com/app/data-lbwjv/endpoint/data/v1/action/findOne',
     headers: {
         'Content-Type': 'application/json',
         'Access-Control-Request-Headers': '*',

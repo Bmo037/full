@@ -31,4 +31,4 @@ node/**/package-lock.json
 
 ## python venv
 python/**/.venv
-python/**/__pychace__
+python/**/__pycache__/
