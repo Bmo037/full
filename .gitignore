@@ -21,3 +21,7 @@ scala/**/target
 
 ##java
 **/*.class
+
+## maven
+maven/**/target
+
