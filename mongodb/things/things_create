@@ -2,7 +2,7 @@ use test
 db.things.drop()
 
 m = {ename:"smith"}
-n = {empno:110}
+n = {empno:1101}
 
 db.things.save(m)
 db.things.save(n)

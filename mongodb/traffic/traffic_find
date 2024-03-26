@@ -1,3 +1,2 @@
 use test
-db.traffic.findOne()
-db.traffic.count()
+db.traffic.find()
